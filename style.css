@@ -1,0 +1,28 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wEag?ver=1497');
+}
+body.center-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.white {
+    color: #ffffff;
+}
+.soft-yellow {
+    color: #ffcb66
+}
+.weight-normal {
+    font-weight: normal;
+}
+.box {
+    max-width: 400px;
+    margin:20px;
+    background-color: #242424;
+    padding:40px 80px 40px 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
